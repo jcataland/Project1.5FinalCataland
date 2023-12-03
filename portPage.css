@@ -1,0 +1,372 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: bolder;
+}
+
+ul {
+    
+    text-align:center;
+    list-style-type:none;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .contactTab{
+    color: orange;
+    text-shadow: 2px 1px #33dd23;
+        }
+   .aboutTab{
+    color: orange;
+    text-shadow: 2px 1px #33dd23;
+        }
+.sidebar{ 
+    width: 160px;
+    position: absolute;
+    top:40;
+    left: 0;
+    padding-left: 4px;
+    background-color: #fff;
+    overflow-x: hidden;
+    
+}
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+  }
+.homeTab{
+    color: hotpink;
+    text-shadow: 2px 1px #0091ff;
+      }
+ .weekliesTab{
+      color: limegreen;
+      text-shadow: 2px 1px #bd5075;
+        }
+ .projectsTab{
+      color: plum;
+      text-shadow: 2px 1px #f3d61c;
+         }
+ .miscelleanousTab{
+     color:orangered;
+     text-shadow: 2px 1px #5558b6;
+         }
+         .extraTab{
+          color:rgb(35, 135, 249);
+          text-shadow: 2px 1px #88ff01;
+              }
+    .mainContent{
+     background: ornage; 
+     padding: 10px;
+    }
+    .boxOne{
+        margin: 0 1.5% 50px 20%;
+        text-align: center;
+        background: white;
+        height:300px;
+        width:500px;
+        border-style: dotted;
+        box-shadow: 5px 4px;
+    }
+    .boxTwo{
+        margin: 0 1.5% 50px 20%;
+        text-align: center;
+        background: rgb(125, 87, 87);
+        height:300px;
+        width:500px;
+        border-style: dotted;
+        box-shadow: 5px 4px;
+    }
+    .boxThree{
+      margin: 0 1.5% 50px 50%;
+      text-align: center;
+      background: rgb(125, 87, 87);
+      height:300px;
+      width:500px;
+      border-style: dotted;
+      box-shadow: 5px 4px;  
+  }
+  .boxFour{
+    margin: 0 1.5% 250px 5%;
+    text-align: center;
+    background: rgb(125, 87, 87);
+    height:300px;
+    width:500px;
+    border-style: dotted;
+    box-shadow: 5px 4px;
+}
+.boxFive{
+  margin: 0 1.5% 250px 40%;
+  text-align: center;
+  background: rgb(125, 87, 87);
+  height:300px;
+  width:500px;
+  border-style: dotted;
+  box-shadow: 5px 4px;
+}
+    
+.section {        
+  position:relative;
+  z-index:1;
+  height:600px;
+  width:100%;
+  background-attachment:fixed;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+
+}
+.content {
+  position:relative;
+  z-index:2;
+  background-color:#fff;
+  border:2px solid #666;    
+  height:50%;
+}
+.section#meInfo {
+  background-image: url(rou67gcqwv961.jpg);   
+}
+.section#currentMusic {
+  background-image: url(rou67gcqwv961.jpg);   
+}
+.section#currentWatch {
+  background-image: url(rou67gcqwv961.jpg);   
+}
+.weekliesHeader{
+  text-decoration:underline;
+  display:block;
+  text-align: center;
+  
+}
+.icons{
+  float: right;
+  border-left: solid;
+  border-right: solid;
+  border-bottom:solid ;
+  padding: 10px;
+  width:165px;
+  height: 50px;
+  background-color: antiquewhite;
+  box-shadow: 5px 4px;
+}
+
+.weekliesStyle{
+  width:1000px;
+  height:1000px;
+  position: absolute;
+  top: 50%;
+  margin-left: 200px;
+  margin-top: -400px;
+  
+}
+
+.blockInfo{
+  background-color: pink;
+  border-style: solid;
+  height: 100px;
+  position: relative;
+  box-shadow: 5px 4px;
+}
+.imageEdit{
+  padding: 10px;
+  margin-left: 500px;
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+.contactText{
+  display:block;
+  text-align: center;
+  position: relative;
+}
+.contactHeader{
+  text-decoration:underline;
+  margin-left: 600px;
+  padding-bottom: 10px;
+  position: fixed;
+}   
+.postImage{
+  margin-top: 10px;
+  margin-left: 100px;
+  width:200px;
+  height:200px;
+  box-shadow: 5px 4px;
+}
+.bunnyImage{
+  margin-left: 200px;
+  width:180px;
+  height:180px;
+  box-shadow: 5px 4px;
+}
+.britneyImage{
+  margin-left: 200px;
+  width:180px;
+  height:180px;
+  box-shadow: 5px 4px;
+}
+.projectsHeader{
+  border: solid;
+  background-color: #52d5e1;
+  box-shadow: 5px 4px;
+}
+.miscHeader{
+  border: solid;
+  background-color: #b961db;
+  box-shadow: 5px 4px;
+}
+.projectsText{
+  display:block;
+  text-align: center;
+  text-decoration:underline;
+}
+.miscText{
+  display:block;
+  text-align: center;
+  text-decoration:underline;
+}
+.projectsbodyText{
+  width: 650px;
+  margin-left: 550px;
+}
+.iconAlign{
+  align-items:baseline;
+  clear: both;
+}
+.section#project1 {
+  background-color: #ffffff;
+  background-image: url(pixelized_oval.png);      
+}
+.section#project2 {
+  background-color: #ffffff; 
+  background-image: url(pixelized_oval.png);  
+}
+.section#project3 {
+  background-color: #ffffff; 
+  background-image: url(pixelized_oval.png);  
+}
+.section#project4 {
+  background-color: #ffffff; 
+  background-image: url(pixelized_oval.png);  
+}
+.projectTextBox {
+  position:absolute;
+  margin-left: 10px;
+  min-height: 200px;
+  width: 400px;
+  border-style: solid;
+  box-shadow: 5px 4px;
+}
+.textsProject{
+  padding-top: 10px;
+  margin-top: 200px;
+  word-wrap:break-word;
+}
+.projectImages{
+  padding: 10px;
+  height: 200px;
+  width: 380px;
+}
+.miscContent{
+  height: 1000px;
+  weight: 1000px;
+  background-color: rgb(142, 200, 131);
+  box-shadow: 5px 4px;
+  border: solid 4px;
+}
+.sideBox{
+  height: 200px;
+  margin-left: 335px;
+  padding-bottom: 100px;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  border-bottom:solid ;
+  background-color: antiquewhite;
+  box-shadow: 5px 4px;
+}
+.introText{
+  padding: 10px;
+}
+.nameHeader{
+  font-size: 50px;
+  color: #3d82a2;
+  text-shadow: 2px 4px #090007;
+}
+.newImageHeader{
+  background-color:#f3d61c;
+  margin-top: 100px;
+  border: solid;
+  box-shadow: 5px 4px;
+  
+}
+.weekliesHeaderVersionTwo{
+  border: solid;
+  background-color:#f3d61c;
+  box-shadow: 5px 4px;
+  text-shadow: 2px 2px #d8d8d8;
+}
+.miscTextBody{
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 2px 2px #d8d8d8;
+}
+.miscTextBody2{
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 2px 2px #d8d8d8;
+}
+.constructionEdit{
+  height: 200px;
+  width: 350px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 350px;
+  border: solid;
+  box-shadow: 5px 4px;
+}
+.constructionEdit2{
+  height: 200px;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 350px;
+  border: solid;
+  box-shadow: 5px 4px;
+}
+#myContainer {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  
+}
+
+#myAnimation {
+  padding-left: 10px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  background-image: url(ac_plug-0.png);
+}
+.extraBackground{
+  background-image: url(download.png);
+  height: 800px;
+}
+.unfinishedProjects{
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+}

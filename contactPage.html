@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <title>Jason Cataland</title>
+</head>
+<style></style>
+ <script>
+var id = null;
+function myMove() {
+  var elem = document.getElementById("myAnimation");
+  var pos = 0;
+  clearInterval(id);
+  id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.top = pos + 'px';
+      elem.style.left = pos + 'px';
+    }
+  }
+}
+</script>
+</body>
+
+<html>
+  
+  
+  <div></div>
+    <ul>    
+        <li><a href="contactPage.html" class="contactTab">Contact</a></li>
+        <li><a href="aboutPortPage.html" class= "aboutTab">About</a></li>
+        <li><a href="index.html" class= "aboutTab">Home</a></li>
+      </ul>
+      </div>
+    <div class="mainContent">
+      <div class="contentBlock">
+      <div class="blockInfo">
+        <div id ="myContainer">
+          <div id ="myAnimation"></div>
+          <h1 class="contactHeader"><alt="logo"/>Connect With Me  </h1>
+      </div>
+      </div>
+        
+        <div class="newImageHeader">
+          
+        <img class= "imageEdit" src="pixelJason.png" alt="Image of Jason Cataland">
+        <p>
+          <button class="buttonEdit" onclick="myMove()">Connect</button> 
+          <button class="buttonEdit" onclick="location.href = 'https://www.linkedin.com/in/jason-cataland-504810226'";>Actually Connect</button> 
+          </p>
+        <p class="contactText"> <u>Email</u>: cataland.8@buckeyemail.osu.edu</p>
+        <p class="contactText"> <u>Phone</u>: 614-633-6270</p>
+        
+      </div>
+
+      </div>
+      
+  </div>
+  </div>
+    </div>  
+    
